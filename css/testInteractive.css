@@ -1,5 +1,17 @@
+html,
 body{
-    background-color: #B295FF;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: radial-gradient(#000, #999);
+    overflow: hidden;
+    
 }
 .parallax-item{
     width: 100px;
